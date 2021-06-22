@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Timer App</title>
+</head>
+<body>
+  <main>
+    <h1 class="timer__title">Timer App</h1>
+    <div class="timer__container">
+        <div class="timer__stats">
+         <!--<h1>00:00:00</h1>-->
+        <p id="countdown" class="countdown_timer"></p>
+        <div  class="timer_tag">
+          <h2 style="padding-left:1em">  HH  </h2>
+          <h2>  MM  </h2>
+          <h2 style="padding-right:1em">  SS  </h2>
+        </div>
+      
+    <div class="timer__buttons">
+      <button id = "start"  class="timer__buttonstart start">
+        START
+      </button>
+       <button id = "reset" class="timer__buttonreset reset">
+        RESET
+      </button>
+    </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
